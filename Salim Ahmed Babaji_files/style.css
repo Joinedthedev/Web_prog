@@ -1,0 +1,42 @@
+html {
+    font-family: roboto;
+    background-color: rgb(224, 216, 205);
+}
+
+.game-sec {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    width: 400px;
+}
+
+.salim-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.salim-info img {
+    height: 10%;
+    width: 10%;
+    border-style: solid;
+    border-color: #ffffff;
+    border-radius: 15px;
+    transition: transform .3s ease-in-out;
+    isolation: isolate;
+
+}
+
+img:hover {
+    transform: scale(1.08);
+    box-shadow: 5px 5px #cccccc;
+}
+
+.salim-info p {
+    width: 800px;
+}
+
+img {
+    height: auto;
+}
