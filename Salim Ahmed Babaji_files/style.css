@@ -8,6 +8,7 @@ html {
     flex-direction: column;
     flex: 1;
     width: 400px;
+    margin: 15px;
 }
 
 .salim-info {
@@ -35,8 +36,13 @@ img:hover {
 
 .salim-info p {
     width: 800px;
+    margin: 5px;
 }
 
 img {
     height: auto;
+}
+
+a{
+    color: rgb(44, 107, 107);
 }
