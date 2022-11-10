@@ -47,3 +47,7 @@ img {
 a{
     color: rgb(44, 107, 107);
 }
+
+li{
+    list-style:circle;
+}
